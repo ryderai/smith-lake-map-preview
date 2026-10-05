@@ -380,7 +380,7 @@ Boat and jet ski rental businesses on this map include Cappy's Boats, Evans Mari
 Yes. Bankhead National Forest sits on the north and west side of the lake. This map shows 7 waterfalls, including Caney Creek Falls, Holmes Chapel Falls, Kinlock Falls, plus trailheads and Forest Service recreation areas. Some waterfall trails are unmarked, so check the Forest Service page before you go.
 
 **How do I find homes for sale on Smith Lake?**
-Tap "Homes for sale" on the map to see Justin Dyar's current homes, lots and land on and near the lake, or browse every Smith Lake listing at justindyar.com. Justin is an Associate Broker with Lake Homes Realty, LLC in Crane Hill. Call (205) 468-6375.
+Tap "Homes for sale" on the map to see Justin Dyar's current homes, lots and land on and near the lake, or browse Smith Lake listings at justindyar.com. Justin is an Associate Broker with Lake Homes Realty, LLC in Crane Hill. Call (205) 468-6375.
 
 ## Contact
 

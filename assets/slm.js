@@ -1,4 +1,4 @@
-/*! Smith Lake Map v2 — Justin Dyar / Lake Homes Realty. Built by AI Syndicate. Plain JS + MapLibre GL. */
+/*! Smith Lake Map v3 — Justin Dyar / Lake Homes Realty. Built by AI Syndicate. Plain JS + MapLibre GL. */
 (function () {
   'use strict';
 
@@ -33,8 +33,12 @@
   var detailEl = $('[data-slm-detail]'), browseEl = $('[data-slm-browse]');
   var searchEl = $('[data-slm-search]'), mapEl = $('[data-slm-map]'), statusEl = $('[data-slm-status]');
   var viewToggle = $('[data-slm-inview]');
+  var shell = root.closest('.slm') || document;   // hero tiles live outside the map box
+  var clearBtn = $('[data-slm-clear]'), hintEl = $('[data-slm-hint]');
+  var activePick = null;
   root.classList.add('slm--js');
 
+  function hideHint() { if (hintEl) hintEl.classList.add('is-gone'); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function announce(m) { if (!statusEl) return; statusEl.textContent = ''; setTimeout(function () { statusEl.textContent = m; }, 40); }
   function svg(cat, cls) {
@@ -72,21 +76,27 @@
     var none = !anyChosen();
     $$('[data-slm-cat]').forEach(function (b) { b.setAttribute('aria-pressed', String(!none && !!chosen[b.getAttribute('data-slm-cat')])); });
     var all = $('[data-slm-all]'); if (all) all.setAttribute('aria-pressed', String(none));
+    $$('[data-slm-pick]', shell).forEach(function (b) { b.setAttribute('aria-pressed', String(b === activePick)); });
+    if (clearBtn) clearBtn.hidden = none && !waterMax && !query;
   }
   $$('[data-slm-cat]').forEach(function (b) {
     b.addEventListener('click', function () {
       var k = b.getAttribute('data-slm-cat');
-      chosen[k] = !chosen[k]; waterMax = 0;
+      chosen[k] = !chosen[k]; waterMax = 0; activePick = null;
       syncChips(); refresh(true);
       announce(anyChosen() ? 'Showing ' + Object.keys(chosen).filter(function (x) { return chosen[x]; }).map(function (x) { return CATS[x].plural; }).join(', ') : 'Showing everything');
     });
   });
   var allBtn = $('[data-slm-all]');
-  if (allBtn) allBtn.addEventListener('click', function () { chosen = {}; waterMax = 0; syncChips(); refresh(true); announce('Showing everything'); });
+  function showAll() { chosen = {}; waterMax = 0; activePick = null; query = ''; if (searchEl) searchEl.value = ''; syncChips(); refresh(true); announce('Showing everything'); }
+  if (allBtn) allBtn.addEventListener('click', showAll);
+  if (clearBtn) clearBtn.addEventListener('click', function () { showAll(); if (map) map.fitBounds([[DATA.bounds[0], DATA.bounds[1]], [DATA.bounds[2], DATA.bounds[3]]], { padding: fitPad(), duration: reduceMotion ? 0 : 600 }); });
 
   // quick picks
-  $$('[data-slm-pick]').forEach(function (b) {
+  $$('[data-slm-pick]', shell).forEach(function (b) {
     b.addEventListener('click', function () {
+      if (activePick === b) { showAll(); return; }   // second tap turns the tile off
+      activePick = b;
       var cats = b.getAttribute('data-slm-pick').split(',');
       chosen = {}; cats.forEach(function (c) { chosen[c] = true; });
       waterMax = +(b.getAttribute('data-slm-water') || 0);
@@ -94,7 +104,11 @@
       inView = false; if (viewToggle) viewToggle.checked = false;
       syncChips(); closeDetail(true); refresh(true);
       fitTo(ALL.filter(matches));
-      announce(b.textContent.trim() + ': ' + ALL.filter(matches).length + ' places');
+      // the tiles sit above the map: bring the map into view so the result is visible
+      var r = root.getBoundingClientRect();
+      if (r.top > window.innerHeight * 0.45 || r.bottom < 120) root.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      hideHint();
+      announce(b.querySelector('.slm-tile__t').textContent + ': ' + ALL.filter(matches).length + ' places');
     });
   });
 
@@ -105,6 +119,7 @@
     st = setTimeout(function () {
       query = searchEl.value.trim().toLowerCase();
       if (query) { inView = false; if (viewToggle) viewToggle.checked = false; }
+      activePick = null; syncChips();
       refresh(true);
       announce(countEl.textContent);
     }, 160);
@@ -238,6 +253,7 @@
 
   function select(id, opts) {
     var p = byId[id]; if (!p) return;
+    hideHint();
     opts = opts || {};
     if (opts.from) lastTrigger = opts.from;
     if (!catOn(p.cat)) { chosen = {}; syncChips(); refresh(false); }
@@ -256,13 +272,49 @@
 
   // ---------------- map ----------------
   var B = DATA.bounds;
+  function fitPad() { return mqMobile.matches ? 30 : { top: 70, bottom: 60, right: 60, left: (panel && panel.offsetWidth ? panel.offsetWidth + 44 : 60) }; } // keep pins out from under the side panel
   function fitTo(items) {
     if (!map || !items.length) return;
     var w = 180, s = 90, e = -180, n = -90;
     items.forEach(function (p) { w = Math.min(w, p.lon); e = Math.max(e, p.lon); s = Math.min(s, p.lat); n = Math.max(n, p.lat); });
     if (e - w < 0.01) { w -= 0.02; e += 0.02; s -= 0.015; n += 0.015; }
-    var pad = mqMobile.matches ? 30 : { top: 60, bottom: 60, right: 60, left: (panel && panel.offsetWidth ? panel.offsetWidth + 40 : 60) }; // keep pins out from under the side panel
-    map.fitBounds([[w, s], [e, n]], { padding: pad, maxZoom: 14, duration: reduceMotion ? 0 : 700 });
+    map.fitBounds([[w, s], [e, n]], { padding: fitPad(), maxZoom: 14, duration: reduceMotion ? 0 : 700 });
+  }
+  // "Satellite" = USGS aerial photos with road and town labels from the street map laid on top
+  var vectorJson = null;
+  function getVector() {
+    if (vectorJson) return Promise.resolve(vectorJson);
+    return fetch(DATA.styles.vector).then(function (r) { if (!r.ok) throw new Error('style'); return r.json(); }).then(function (j) { vectorJson = j; return j; });
+  }
+  var OVERLAY = [];   // ids of label/road layers added on top of the photo map
+  function overlayLayers(v) {
+    var out = [];
+    v.layers.forEach(function (l) {
+      var sl = l['source-layer'] || '';
+      if (l.type === 'line' && sl === 'transportation' && !/tunnel|path|rail|ferry|aeroway|pier|casing/.test(l.id)) {
+        var L = JSON.parse(JSON.stringify(l)); L.id = 'ov-' + l.id; L.paint = L.paint || {};
+        L.paint['line-color'] = 'rgba(255,244,214,.5)'; delete L.paint['line-dasharray']; delete L.paint['line-pattern']; out.push(L);
+      } else if (l.type === 'symbol' && /^(transportation_name|water_name)$/.test(sl)) {
+        var S = JSON.parse(JSON.stringify(l)); S.id = 'ov-' + l.id; S.paint = S.paint || {}; S.layout = S.layout || {};
+        if (!S.layout['text-field']) return;
+        delete S.layout['icon-image']; delete S.paint['icon-color'];
+        S.paint['text-color'] = sl === 'water_name' ? '#d8f1fb' : '#ffffff';
+        S.paint['text-halo-color'] = 'rgba(8,22,21,.85)'; S.paint['text-halo-width'] = 1.6; S.paint['text-halo-blur'] = 0.4;
+        out.push(S);
+      }
+    });
+    return out;
+  }
+  function addOverlay() {
+    if (currentBase !== 'hybrid' || !map) return;
+    getVector().then(function (v) {
+      if (currentBase !== 'hybrid') return;
+      try {
+        for (var k in v.sources) if (!map.getSource(k)) map.addSource(k, v.sources[k]);
+        var before = map.getLayer('slm-cluster') ? 'slm-cluster' : undefined;
+        overlayLayers(v).forEach(function (l) { if (!map.getLayer(l.id)) { map.addLayer(l, before); OVERLAY.push(l.id); } });
+      } catch (e) { /* labels are a bonus; the photo map still works without them */ }
+    }).catch(function () {});
   }
   function styleFor(base) {
     if (base === 'map') return DATA.styles.vector;
@@ -298,6 +350,15 @@
     makeIcons(); tintWater();
     var pts = PLACES.filter(matches);
     if (map.getSource('slm')) { map.getSource('slm').setData(fc(pts)); return; }
+    if (DATA.towns && !map.getSource('slm-towns')) {
+      var dark = currentBase === 'hybrid';
+      map.addSource('slm-towns', { type: 'geojson', data: { type: 'FeatureCollection', features: DATA.towns.map(function (t) { return { type: 'Feature', geometry: { type: 'Point', coordinates: [t.lon, t.lat] }, properties: { name: t.name } }; }) } });
+      map.addLayer({ id: 'slm-town', type: 'symbol', source: 'slm-towns', minzoom: 8.5,
+        layout: { 'text-field': ['get', 'name'], 'text-font': DATA.styles.fontBold, 'text-size': ['interpolate', ['linear'], ['zoom'], 9, 12, 13, 15],
+          'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-anchor': 'bottom', 'text-offset': [0, -1.1],
+          'text-allow-overlap': true, 'text-ignore-placement': true },   // a town name must never vanish behind a pin
+        paint: { 'text-color': dark ? '#ffffff' : '#24403d', 'text-halo-color': dark ? 'rgba(8,22,21,.85)' : 'rgba(255,253,248,.95)', 'text-halo-width': 1.8 } });
+    }
     map.addSource('slm', { type: 'geojson', data: fc(pts), cluster: true, clusterRadius: 38, clusterMaxZoom: 9 /* whole number only: supercluster */ });
     map.addLayer({ id: 'slm-cluster', type: 'circle', source: 'slm', filter: ['has', 'point_count'],
       paint: { 'circle-color': '#12302f', 'circle-opacity': 0.9, 'circle-stroke-color': 'rgba(251,250,247,.9)', 'circle-stroke-width': 3,
@@ -349,10 +410,27 @@
   }
   function nextIn(g) { var i = g.items.map(function (x) { return x.id; }).indexOf(selectedId); return g.items[(i + 1) % g.items.length].id; }
   function updateHomeMarkers() {
+    // price tags never pile on top of each other: when two would overlap, the pricier one stays and the
+    // other waits until you zoom in (every listing is still in the list). Keeps tap targets apart (WCAG 2.5.8).
+    var kept = [];
+    if (map) {   // keep tags clear of the map's own buttons too
+      var mr = mapEl.getBoundingClientRect();
+      $$('.maplibregl-ctrl-top-right, .slm-bases, .slm-reset', root).forEach(function (c) {
+        var r = c.getBoundingClientRect(); if (!r.width) return;
+        kept.push({ l: r.left - mr.left - 4, r: r.right - mr.left + 4, t: r.top - mr.top - 4, b: r.bottom - mr.top + 4 });
+      });
+    }
     homeMarkers.forEach(function (h) {
+      var on = h.g.items.some(function (x) { return x.id === selectedId; });
       var vis = h.g.items.some(matches);
+      if (vis && map) {
+        var pt = map.project(ll(h.g.items[0])), wdt = 84, hgt = 30;
+        var box = { l: pt.x - wdt / 2 - 12, r: pt.x + wdt / 2 + 12, t: pt.y - hgt - 12, b: pt.y + 12 };
+        var hit = kept.some(function (k) { return !(box.r < k.l || box.l > k.r || box.b < k.t || box.t > k.b); });
+        if (hit && !on) vis = false; else kept.push(box);
+      }
       h.el.style.display = vis ? '' : 'none';
-      h.el.classList.toggle('is-on', h.g.items.some(function (x) { return x.id === selectedId; }));
+      h.el.classList.toggle('is-on', on);
     });
   }
 
@@ -370,13 +448,13 @@
     } else if (tip) tip.remove();
   }
 
-  var currentBase = 'map';
+  var currentBase = 'hybrid';
   function setBase(base) {
     if (!map || base === currentBase) return;
     currentBase = base;
     $$('[data-slm-base]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-slm-base') === base)); });
-    map.setStyle(styleFor(base), { diff: false }); // diff:true skips 'style.load' and drops our layers
-    map.once('style.load', addLayers);
+    map.once('style.load', function () { addLayers(); addOverlay(); });
+    map.setStyle(styleFor(base === 'hybrid' ? 'sat' : base), { diff: false }); // diff:true skips 'style.load' and drops our layers
     announce(base === 'map' ? 'Street map' : base === 'sat' ? 'Satellite photo' : 'Topographic map');
   }
   $$('[data-slm-base]').forEach(function (b) { b.addEventListener('click', function () { setBase(b.getAttribute('data-slm-base')); }); });
@@ -397,7 +475,7 @@
     if (maplibregl.supported && !maplibregl.supported()) return fail('This browser cannot draw the map. Every place is still listed here.');
     try {
       map = new maplibregl.Map({
-        container: mapEl, style: styleFor('map'), bounds: [[B[0], B[1]], [B[2], B[3]]], fitBoundsOptions: { padding: 30 },
+        container: mapEl, style: styleFor('sat'), bounds: [[B[0], B[1]], [B[2], B[3]]], fitBoundsOptions: { padding: fitPad() },
         maxBounds: [[B[0] - 0.7, B[1] - 0.5], [B[2] + 0.7, B[3] + 0.5]], minZoom: 8, maxZoom: 18,
         cooperativeGestures: root.hasAttribute('data-coop'), attributionControl: { compact: true },
         dragRotate: false, pitchWithRotate: false, touchPitch: false
@@ -413,14 +491,15 @@
     function onReady() {
       if (started) return; started = true;
       everLoaded = true; root.classList.remove('slm--nomap'); var f = $('[data-slm-fallback]'); if (f) f.hidden = true;
-      addLayers(); buildHomeMarkers(); renderList();
+      addLayers(); addOverlay(); buildHomeMarkers(); renderList();
+      map.once('dragstart', hideHint); map.once('zoomstart', function (e) { if (e && e.originalEvent) hideHint(); }); setTimeout(hideHint, 12000);
       map.once('idle', function () { refresh(); }); // re-send the pins once the map settles (first send can be dropped while tiles load)
       var c = mapEl.querySelector('canvas'); if (c) c.setAttribute('aria-label', 'Map of Smith Lake. Use the list of places to pick one with the keyboard.');
       var m = /place=([^&]+)/.exec(location.hash); if (m && byId[decodeURIComponent(m[1])]) select(decodeURIComponent(m[1]), { fly: true });
     }
     map.once('style.load', onReady);
     map.on('load', onReady);
-    var mt; map.on('moveend', function () { clearTimeout(mt); mt = setTimeout(function () { if (inView && detailEl.hidden) renderList(); }, 120); });
+    var mt; map.on('moveend', function () { updateHomeMarkers(); clearTimeout(mt); mt = setTimeout(function () { if (inView && detailEl.hidden) renderList(); }, 120); });
     var waited = 0, tick = setInterval(function () {
       if (everLoaded) return clearInterval(tick);
       if (document.visibilityState === 'visible') waited += 1;   // background tabs do not draw; do not count them
