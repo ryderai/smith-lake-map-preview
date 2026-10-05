@@ -1,0 +1,4165 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.954802,
+     34.08068
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Park",
+    "category": "Park & nature",
+    "town": "Cullman",
+    "source": "Cullman County Parks & Recreation \u2014 Smith Lake Park; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.1075,
+     33.9405
+    ]
+   },
+   "properties": {
+    "name": "Smith Dam Tailrace Area & Fishing Pier",
+    "category": "Fishing",
+    "town": "Ardell",
+    "source": "Alabama Power Shorelines \u2014 The Preserves (Smith Lake)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.1118,
+     33.9335
+    ]
+   },
+   "properties": {
+    "name": "Sipsey Fork Trout Fishery (below Smith Dam)",
+    "category": "Fishing",
+    "town": "Ardell",
+    "source": "Alabama Dept. of Conservation & Natural Resources \u2014 Sipsey Fork trout fishing below Smith Lake"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.3212324,
+     34.1029269
+    ]
+   },
+   "properties": {
+    "name": "Corinth Recreation Area",
+    "category": "Boat ramp",
+    "town": "Barnett Chapel",
+    "source": "USDA Forest Service \u2014 Bankhead National Forest recreation areas; Fish Alabama (Alabama Bass Trail) \u2014 Lewis Smith Lake; SmithLake.info \u2014 Boat Ramps; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.29375071,
+     34.11885736
+    ]
+   },
+   "properties": {
+    "name": "Houston Recreation Area",
+    "category": "Boat ramp",
+    "town": "Houston",
+    "source": "USDA Forest Service \u2014 Bankhead National Forest recreation areas; Fish Alabama (Alabama Bass Trail) \u2014 Lewis Smith Lake; SmithLake.info \u2014 Boat Ramps"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.99225,
+     34.042389
+    ]
+   },
+   "properties": {
+    "name": "Bremen Lakeview Resort",
+    "category": "Camping & lodging",
+    "town": "Bremen",
+    "source": "SmithLake.info \u2014 Boat Ramps"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.228001,
+     34.112511
+    ]
+   },
+   "properties": {
+    "name": "Highway 63 Bridge Ramp",
+    "category": "Boat ramp",
+    "town": "Arley",
+    "source": "SmithLake.info \u2014 Boat Ramps"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.957304,
+     34.084088
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Park Boat Launch",
+    "category": "Boat ramp",
+    "town": "Cullman",
+    "source": "Cullman County Parks & Recreation \u2014 Smith Lake Park; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.958039,
+     34.084115
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Park Fishing Pier",
+    "category": "Fishing",
+    "town": "Cullman",
+    "source": "Cullman County Parks & Recreation \u2014 Smith Lake Park; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.108541,
+     33.944381
+    ]
+   },
+   "properties": {
+    "name": "Smith Dam Ramp",
+    "category": "Boat ramp",
+    "town": "Ardell",
+    "source": "Alabama Power Shorelines \u2014 The Preserves (Smith Lake); OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.119767,
+     34.022318
+    ]
+   },
+   "properties": {
+    "name": "Rock Creek Marina & Squirrel's Marina",
+    "category": "Marina",
+    "town": "Crane Hill",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.957106,
+     34.086265
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Marina & Resort",
+    "category": "Marina",
+    "town": "Cullman",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.974799,
+     34.080619
+    ]
+   },
+   "properties": {
+    "name": "Speegle's Marina & Campground",
+    "category": "Marina",
+    "town": "Crane Hill",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.056455,
+     34.031888
+    ]
+   },
+   "properties": {
+    "name": "Trident Marina",
+    "category": "Marina",
+    "town": "Crane Hill",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; Alabama Living magazine \u2014 Smith Lake; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.142665,
+     33.971666
+    ]
+   },
+   "properties": {
+    "name": "Duskin Point Marina",
+    "category": "Marina",
+    "town": "Jasper",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.219526,
+     34.001696
+    ]
+   },
+   "properties": {
+    "name": "Duncan Bridge Marina",
+    "category": "Marina",
+    "town": "Arley",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.313693,
+     34.140961
+    ]
+   },
+   "properties": {
+    "name": "Lakeshore Inn & Marina",
+    "category": "Marina",
+    "town": "Double Springs",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.150468,
+     34.062578
+    ]
+   },
+   "properties": {
+    "name": "Triple Creek Marina",
+    "category": "Marina",
+    "town": "Arley",
+    "source": "The Lakeside Life \u2014 Smith Lake Marinas; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.059567,
+     34.029202
+    ]
+   },
+   "properties": {
+    "name": "The Grille at Trident Marina",
+    "category": "Restaurant",
+    "town": "Crane Hill",
+    "source": "Alabama Living magazine \u2014 Smith Lake; SmithLakeHouse.com \u2014 Smith Lake food & dining; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.313693,
+     34.140961
+    ]
+   },
+   "properties": {
+    "name": "Lakeshore Inn Restaurant & Goldiggers Bar & Grill",
+    "category": "Restaurant",
+    "town": "Double Springs",
+    "source": "SmithLakeHouse.com \u2014 Smith Lake food & dining; Lakecessory \u2014 Lewis Smith Lake best places to eat; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.258403,
+     34.141564
+    ]
+   },
+   "properties": {
+    "name": "Chef Troy's Talk of the Town",
+    "category": "Restaurant",
+    "town": "Houston",
+    "source": "Lakecessory \u2014 Lewis Smith Lake best places to eat; SmithLakeHouse.com \u2014 Smith Lake food & dining; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.003957,
+     34.02513
+    ]
+   },
+   "properties": {
+    "name": "Kat Daddy's BBQ & Grill",
+    "category": "Restaurant",
+    "town": "Bremen",
+    "source": "Lakecessory \u2014 Lewis Smith Lake best places to eat; SmithLakeHouse.com \u2014 Smith Lake food & dining; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.947268,
+     34.093758
+    ]
+   },
+   "properties": {
+    "name": "Whitlock's General Store and Cafe",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Alabama Living magazine \u2014 Smith Lake; SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.211946,
+     34.078888
+    ]
+   },
+   "properties": {
+    "name": "Son's of Arley",
+    "category": "Groceries & stores",
+    "town": "Arley",
+    "source": "The Smith Lake Life \u2014 Grocery stores; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.941448,
+     34.098278
+    ]
+   },
+   "properties": {
+    "name": "Trimble Supersaver",
+    "category": "Groceries & stores",
+    "town": "Cullman",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.076051,
+     34.038197
+    ]
+   },
+   "properties": {
+    "name": "Country Mall Convenience & Hardware",
+    "category": "Gas station",
+    "town": "Crane Hill",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.060863,
+     34.094867
+    ]
+   },
+   "properties": {
+    "name": "Skinner's E-Mart",
+    "category": "Gas station",
+    "town": "Crane Hill",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.058201,
+     34.096078
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Crane Hill)",
+    "category": "Groceries & stores",
+    "town": "Crane Hill",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.942661,
+     34.096046
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Trimble)",
+    "category": "Groceries & stores",
+    "town": "Cullman",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.877451,
+     34.045627
+    ]
+   },
+   "properties": {
+    "name": "S&S Foods",
+    "category": "Groceries & stores",
+    "town": "Hanceville",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.943004,
+     34.095825
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Hardware & Building",
+    "category": "Bait, tackle & hardware",
+    "town": "Cullman",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.225179,
+     34.05705
+    ]
+   },
+   "properties": {
+    "name": "Williams Hardware & Supply",
+    "category": "Bait, tackle & hardware",
+    "town": "Arley",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.218375,
+     33.94283
+    ]
+   },
+   "properties": {
+    "name": "Ace Hardware of Curry",
+    "category": "Bait, tackle & hardware",
+    "town": "Jasper",
+    "source": "SmithLakeAL.com \u2014 Shopping and retail; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.273252,
+     34.016743
+    ]
+   },
+   "properties": {
+    "name": "Clear Creek Recreation Area Boat Ramp",
+    "category": "Boat ramp",
+    "town": "Falls City",
+    "source": "USDA Forest Service \u2014 Bankhead National Forest recreation areas; Fish Alabama (Alabama Bass Trail) \u2014 Lewis Smith Lake; OpenStreetMap contributors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840073,
+     34.17491
+    ]
+   },
+   "properties": {
+    "name": "412 Public House",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "The Smith Lake Life \u2014 Restaurants; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840085,
+     34.17493
+    ]
+   },
+   "properties": {
+    "name": "Hele Bowls",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "The Smith Lake Life \u2014 Restaurants; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.839486,
+     34.175871
+    ]
+   },
+   "properties": {
+    "name": "The All Steak Restaurant",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "The Smith Lake Life \u2014 Restaurants; U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.40726,
+     34.155812
+    ]
+   },
+   "properties": {
+    "name": "Smokin' Pig BBQ",
+    "category": "Restaurant",
+    "town": "Double Springs",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.005804,
+     33.958958
+    ]
+   },
+   "properties": {
+    "name": "Eg's BBQ",
+    "category": "Restaurant",
+    "town": "Bremen",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.181164,
+     34.203346
+    ]
+   },
+   "properties": {
+    "name": "The Food Shack",
+    "category": "Restaurant",
+    "town": "Addison",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.218375,
+     33.94283
+    ]
+   },
+   "properties": {
+    "name": "Awesome Ice",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.864219,
+     34.115051
+    ]
+   },
+   "properties": {
+    "name": "Waffle House (Good Hope)",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.862209,
+     34.05872
+    ]
+   },
+   "properties": {
+    "name": "Krispy Krunchy Chicken (Hanceville)",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.768292,
+     34.059258
+    ]
+   },
+   "properties": {
+    "name": "Cafe Tula Taqueria",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848526,
+     34.18331
+    ]
+   },
+   "properties": {
+    "name": "Shrimp Basket (Cullman)",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.853334,
+     34.19272
+    ]
+   },
+   "properties": {
+    "name": "Seven Daughters Scoops",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.841818,
+     34.175607
+    ]
+   },
+   "properties": {
+    "name": "Berkeley Bob's Coffee House",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.834861,
+     34.160225
+    ]
+   },
+   "properties": {
+    "name": "Ninja Japanese Steakhouse",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843054,
+     34.177809
+    ]
+   },
+   "properties": {
+    "name": "Karma's Coffee",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.850362,
+     34.186864
+    ]
+   },
+   "properties": {
+    "name": "Urban Cookhouse (Cullman)",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840613,
+     34.173605
+    ]
+   },
+   "properties": {
+    "name": "Busy Bee Caf\u00e9",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848442,
+     34.183149
+    ]
+   },
+   "properties": {
+    "name": "Guthrie's (Cullman)",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.842336,
+     34.17649
+    ]
+   },
+   "properties": {
+    "name": "Duchess Bakery",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843072,
+     34.177801
+    ]
+   },
+   "properties": {
+    "name": "Flavors Bakery",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848045,
+     34.169812
+    ]
+   },
+   "properties": {
+    "name": "La Michoacanita Ice Cream",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.851828,
+     34.189505
+    ]
+   },
+   "properties": {
+    "name": "Taqueria Las Cebollitas",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Restaurantji \u2014 restaurant listings by town (Double Springs, Addison, Bremen, Jasper, Hanceville, Good Hope, Cullman); U.S. Census Bureau Geocoder (pin placed from street address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.106399,
+     33.942058
+    ]
+   },
+   "properties": {
+    "name": "Lewis Smith Dam",
+    "category": "Park & nature",
+    "town": "Ardell",
+    "source": "OpenStreetMap contributors; Wikipedia \u2014 Lewis Smith Lake"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.312879,
+     34.144737
+    ]
+   },
+   "properties": {
+    "name": "Lakeshore Quick Stop",
+    "category": "Groceries & stores",
+    "town": "Barnett Chapel",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.214532,
+     33.955125
+    ]
+   },
+   "properties": {
+    "name": "Texaco",
+    "category": "Gas station",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.320055,
+     34.101586
+    ]
+   },
+   "properties": {
+    "name": "Corinth Recreational Area Campground",
+    "category": "Camping & lodging",
+    "town": "Barnett Chapel",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.953247,
+     34.078573
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Park Campground",
+    "category": "Camping & lodging",
+    "town": "Trimble",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.95079,
+     34.090462
+    ]
+   },
+   "properties": {
+    "name": "Ryans Creek RV Resort",
+    "category": "Camping & lodging",
+    "town": "Trimble",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.973578,
+     34.080237
+    ]
+   },
+   "properties": {
+    "name": "Speegle's Campground",
+    "category": "Camping & lodging",
+    "town": "Trimble",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.97918,
+     34.077685
+    ]
+   },
+   "properties": {
+    "name": "Brag Patch RV Park",
+    "category": "Camping & lodging",
+    "town": "Trimble",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.14655,
+     34.055239
+    ]
+   },
+   "properties": {
+    "name": "Thousand Trails Hidden Cove",
+    "category": "Camping & lodging",
+    "town": "Arley",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.267852,
+     34.020244
+    ]
+   },
+   "properties": {
+    "name": "Clear Creek Campground",
+    "category": "Camping & lodging",
+    "town": "Falls City",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.064451,
+     34.093158
+    ]
+   },
+   "properties": {
+    "name": "Dowling Memorial Park",
+    "category": "Park & nature",
+    "town": "Crane Hill",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.167807,
+     34.086199
+    ]
+   },
+   "properties": {
+    "name": "Hammer Park",
+    "category": "Park & nature",
+    "town": "Arley",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.836629,
+     34.158362
+    ]
+   },
+   "properties": {
+    "name": "Taco Bell",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.413949,
+     34.158907
+    ]
+   },
+   "properties": {
+    "name": "Subway",
+    "category": "Restaurant",
+    "town": "Double Springs",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.834971,
+     34.161346
+    ]
+   },
+   "properties": {
+    "name": "KFC",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.873663,
+     34.20759
+    ]
+   },
+   "properties": {
+    "name": "Arby's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840003,
+     34.177059
+    ]
+   },
+   "properties": {
+    "name": "Carlton's Italian",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.851419,
+     34.184019
+    ]
+   },
+   "properties": {
+    "name": "Joe Muggs",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.836011,
+     34.161059
+    ]
+   },
+   "properties": {
+    "name": "McDonald's",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843127,
+     34.178299
+    ]
+   },
+   "properties": {
+    "name": "Mae's Food Hall",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843196,
+     34.178216
+    ]
+   },
+   "properties": {
+    "name": "Ruckus Bar",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843053,
+     34.178285
+    ]
+   },
+   "properties": {
+    "name": "I Love Bacon",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843112,
+     34.178267
+    ]
+   },
+   "properties": {
+    "name": "iCantina Taqueria",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843084,
+     34.178353
+    ]
+   },
+   "properties": {
+    "name": "Link's Hot Dogs and Hamburgers",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843241,
+     34.178304
+    ]
+   },
+   "properties": {
+    "name": "Strada di Napoli",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843157,
+     34.178356
+    ]
+   },
+   "properties": {
+    "name": "Big Spoon Creamery",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.849199,
+     34.171686
+    ]
+   },
+   "properties": {
+    "name": "Subway",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.8494,
+     34.183084
+    ]
+   },
+   "properties": {
+    "name": "Moe's Southwest Grill",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.849086,
+     34.183022
+    ]
+   },
+   "properties": {
+    "name": "Panera Bread",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.84348,
+     34.152071
+    ]
+   },
+   "properties": {
+    "name": "Starbucks",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.843417,
+     34.152154
+    ]
+   },
+   "properties": {
+    "name": "Papa Murphy's",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.839709,
+     34.152265
+    ]
+   },
+   "properties": {
+    "name": "Cici's Pizza",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.839705,
+     34.152108
+    ]
+   },
+   "properties": {
+    "name": "Casa Fiesta",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.839718,
+     34.152012
+    ]
+   },
+   "properties": {
+    "name": "China Garden",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.27176,
+     33.851277
+    ]
+   },
+   "properties": {
+    "name": "Garfield's Restaurant & Pub",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.273895,
+     33.850301
+    ]
+   },
+   "properties": {
+    "name": "Jimmy's Egg",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.269813,
+     33.9003
+    ]
+   },
+   "properties": {
+    "name": "The Picnic Basket Cafe",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.869923,
+     34.206101
+    ]
+   },
+   "properties": {
+    "name": "McAlister's Deli",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.272763,
+     33.849997
+    ]
+   },
+   "properties": {
+    "name": "Domino's",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.84709,
+     34.143142
+    ]
+   },
+   "properties": {
+    "name": "Applebee's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.776458,
+     34.071607
+    ]
+   },
+   "properties": {
+    "name": "McDonald's",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.776493,
+     34.07126
+    ]
+   },
+   "properties": {
+    "name": "Subway",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.772367,
+     34.064856
+    ]
+   },
+   "properties": {
+    "name": "Jack's",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.868648,
+     34.05178
+    ]
+   },
+   "properties": {
+    "name": "McDonald's",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.873524,
+     34.206181
+    ]
+   },
+   "properties": {
+    "name": "Popeyes",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.872669,
+     34.050652
+    ]
+   },
+   "properties": {
+    "name": "Dunkin'",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.834361,
+     34.159857
+    ]
+   },
+   "properties": {
+    "name": "Papa John's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.872606,
+     34.0507
+    ]
+   },
+   "properties": {
+    "name": "Burger King",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.87252,
+     34.050747
+    ]
+   },
+   "properties": {
+    "name": "Papa John's",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.8638,
+     34.11681
+    ]
+   },
+   "properties": {
+    "name": "Dunkin'",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.841871,
+     34.154621
+    ]
+   },
+   "properties": {
+    "name": "DQ Grill & Chill",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.846236,
+     34.14756
+    ]
+   },
+   "properties": {
+    "name": "Whataburger",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.862088,
+     34.116788
+    ]
+   },
+   "properties": {
+    "name": "Hardee's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.836649,
+     34.161999
+    ]
+   },
+   "properties": {
+    "name": "Burger King",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.87243,
+     34.050809
+    ]
+   },
+   "properties": {
+    "name": "Popeyes",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.863855,
+     34.116777
+    ]
+   },
+   "properties": {
+    "name": "Wendy's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.869729,
+     34.204748
+    ]
+   },
+   "properties": {
+    "name": "Domino's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.835437,
+     34.157345
+    ]
+   },
+   "properties": {
+    "name": "Sonic",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.871508,
+     34.206218
+    ]
+   },
+   "properties": {
+    "name": "KFC",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.872208,
+     34.206065
+    ]
+   },
+   "properties": {
+    "name": "Wendy's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.802092,
+     34.095971
+    ]
+   },
+   "properties": {
+    "name": "Domino's",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.250795,
+     33.843568
+    ]
+   },
+   "properties": {
+    "name": "Applebee's",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.243976,
+     33.842146
+    ]
+   },
+   "properties": {
+    "name": "Arby's",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840759,
+     34.153043
+    ]
+   },
+   "properties": {
+    "name": "Arby's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.247497,
+     33.8429
+    ]
+   },
+   "properties": {
+    "name": "Baskin-Robbins",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.241462,
+     33.841488
+    ]
+   },
+   "properties": {
+    "name": "Bojangles",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.834004,
+     34.157688
+    ]
+   },
+   "properties": {
+    "name": "Buffalo Wild Wings",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.410336,
+     34.156998
+    ]
+   },
+   "properties": {
+    "name": "Jack's",
+    "category": "Restaurant",
+    "town": "Double Springs",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.780325,
+     34.075653
+    ]
+   },
+   "properties": {
+    "name": "Pops Cafe",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.77946,
+     34.074601
+    ]
+   },
+   "properties": {
+    "name": "Pizza Reyes",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.846833,
+     34.173994
+    ]
+   },
+   "properties": {
+    "name": "Domino's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.847785,
+     34.17225
+    ]
+   },
+   "properties": {
+    "name": "Rumor's Deli",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.876309,
+     34.208315
+    ]
+   },
+   "properties": {
+    "name": "Puckett's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.875588,
+     34.207984
+    ]
+   },
+   "properties": {
+    "name": "Cracker Barrel",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.877096,
+     34.20834
+    ]
+   },
+   "properties": {
+    "name": "Logan's Roadhouse",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.876521,
+     34.20668
+    ]
+   },
+   "properties": {
+    "name": "McDonald's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.84243,
+     34.173885
+    ]
+   },
+   "properties": {
+    "name": "Mo's Joes",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.269076,
+     33.849138
+    ]
+   },
+   "properties": {
+    "name": "McDonald's",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.845246,
+     34.171384
+    ]
+   },
+   "properties": {
+    "name": "Grumpy's Italian",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.842292,
+     34.151345
+    ]
+   },
+   "properties": {
+    "name": "Zaxby's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.849511,
+     34.183611
+    ]
+   },
+   "properties": {
+    "name": "Hardee's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.867471,
+     34.206037
+    ]
+   },
+   "properties": {
+    "name": "Panda Express",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848583,
+     34.159377
+    ]
+   },
+   "properties": {
+    "name": "Jack's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.842788,
+     34.152884
+    ]
+   },
+   "properties": {
+    "name": "Jim N Nick's Barbecue",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.839827,
+     34.152935
+    ]
+   },
+   "properties": {
+    "name": "Milo's Hamburgers",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.840318,
+     34.153481
+    ]
+   },
+   "properties": {
+    "name": "Chick-fil-A",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.846125,
+     34.179454
+    ]
+   },
+   "properties": {
+    "name": "Jimmy John's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.266544,
+     33.848437
+    ]
+   },
+   "properties": {
+    "name": "Burger King",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.260944,
+     33.847471
+    ]
+   },
+   "properties": {
+    "name": "Pizza Hut",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.260399,
+     33.847093
+    ]
+   },
+   "properties": {
+    "name": "Zaxby's",
+    "category": "Restaurant",
+    "town": "Jasper",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.874718,
+     34.2066
+    ]
+   },
+   "properties": {
+    "name": "Taco Bell",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.874184,
+     34.206396
+    ]
+   },
+   "properties": {
+    "name": "Denny's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.180961,
+     34.20254
+    ]
+   },
+   "properties": {
+    "name": "Jack's",
+    "category": "Restaurant",
+    "town": "Addison",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.841215,
+     34.154161
+    ]
+   },
+   "properties": {
+    "name": "Chipotle",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.870371,
+     34.206084
+    ]
+   },
+   "properties": {
+    "name": "Zaxby's",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.870998,
+     34.206166
+    ]
+   },
+   "properties": {
+    "name": "Lawlers Barbecue",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.874243,
+     34.20762
+    ]
+   },
+   "properties": {
+    "name": "Burger King",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.841181,
+     34.175166
+    ]
+   },
+   "properties": {
+    "name": "Moe's Original Bar-B-Que",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.85457,
+     34.172495
+    ]
+   },
+   "properties": {
+    "name": "Johnnys BBQ",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.77576,
+     34.070664
+    ]
+   },
+   "properties": {
+    "name": "Taco Bell",
+    "category": "Restaurant",
+    "town": "Hanceville",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848508,
+     34.184247
+    ]
+   },
+   "properties": {
+    "name": "Scooter's Coffee",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "OpenStreetMap contributors (not checked one by one)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.914971,
+     34.034976
+    ]
+   },
+   "properties": {
+    "name": "Hames Marina & RV Park",
+    "category": "Marina",
+    "town": "Cullman",
+    "source": "Fish Alabama (ADCNR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.122595,
+     33.967943
+    ]
+   },
+   "properties": {
+    "name": "The Lost Cove",
+    "category": "Marina",
+    "town": "Crane Hill",
+    "source": "The Lost Cove (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.95314,
+     34.092395
+    ]
+   },
+   "properties": {
+    "name": "Cappy's Boats",
+    "category": "Boat rental & service",
+    "town": "Cullman",
+    "source": "Cappy's Boats (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.231782,
+     33.993977
+    ]
+   },
+   "properties": {
+    "name": "Evans Marine",
+    "category": "Boat rental & service",
+    "town": "Jasper",
+    "source": "Evans Marine (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.056455,
+     34.031888
+    ]
+   },
+   "properties": {
+    "name": "Skier's Marine Smith Lake",
+    "category": "Boat rental & service",
+    "town": "Crane Hill",
+    "source": "Skier's Marine (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.877285,
+     34.045772
+    ]
+   },
+   "properties": {
+    "name": "Russell Marine Smith Lake",
+    "category": "Boat rental & service",
+    "town": "Hanceville",
+    "source": "Cullman Area Chamber of Commerce; Russell Marine site"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.062703,
+     34.028767
+    ]
+   },
+   "properties": {
+    "name": "Clarks Marine",
+    "category": "Boat rental & service",
+    "town": "Crane Hill",
+    "source": "The Smith Lake Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.937386,
+     34.081837
+    ]
+   },
+   "properties": {
+    "name": "Leon's Marine",
+    "category": "Boat rental & service",
+    "town": "Cullman",
+    "source": "The Lakeside Life; smithlakeal.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.862725,
+     34.09404
+    ]
+   },
+   "properties": {
+    "name": "Rambo Marine Smith Lake",
+    "category": "Boat rental & service",
+    "town": "Hanceville",
+    "source": "Rambo Marine (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.862065,
+     34.059212
+    ]
+   },
+   "properties": {
+    "name": "GAF Marine",
+    "category": "Boat rental & service",
+    "town": "Hanceville",
+    "source": "GAF Marine (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.178586,
+     33.979711
+    ]
+   },
+   "properties": {
+    "name": "HydroHoist of Alabama",
+    "category": "Boat rental & service",
+    "town": "Jasper",
+    "source": "HydroHoist of Alabama (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.219526,
+     34.001696
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Pontoon and Boat Rentals",
+    "category": "Boat rental & service",
+    "town": "Arley",
+    "source": "Smith Lake Pontoon and Boat Rentals (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.249117,
+     33.920638
+    ]
+   },
+   "properties": {
+    "name": "Pine Valley Outdoor Living",
+    "category": "Boat rental & service",
+    "town": "Curry",
+    "source": "The Lakeside Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.0839,
+     33.9118
+    ]
+   },
+   "properties": {
+    "name": "Riverside Fly Shop",
+    "category": "Fishing",
+    "town": "Bremen",
+    "source": "Riverside Fly Shop (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.119767,
+     34.022318
+    ]
+   },
+   "properties": {
+    "name": "Land & Lure \u2013 Smith Lake Boat Rentals & Guide Service",
+    "category": "Fishing",
+    "town": "Crane Hill",
+    "source": "smithlakeal.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.096713,
+     34.084526
+    ]
+   },
+   "properties": {
+    "name": "Unhitched Arrowhead RV Park",
+    "category": "Camping & lodging",
+    "town": "Crane Hill",
+    "source": "Unhitched RV (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.18914,
+     33.996616
+    ]
+   },
+   "properties": {
+    "name": "Lakeshore Cabins & RV",
+    "category": "Camping & lodging",
+    "town": "Jasper",
+    "source": "The Lakeside Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.114915,
+     33.998708
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Bed & Breakfast (Smith Lake Glamping)",
+    "category": "Camping & lodging",
+    "town": "Crane Hill",
+    "source": "Cullman Area Chamber of Commerce; official site"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.035276,
+     34.043582
+    ]
+   },
+   "properties": {
+    "name": "The Red Rooster Retreat",
+    "category": "Camping & lodging",
+    "town": "Crane Hill",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.877059,
+     34.129456
+    ]
+   },
+   "properties": {
+    "name": "Palomino RV Resort",
+    "category": "Camping & lodging",
+    "town": "Cullman",
+    "source": "Palomino RV Resort (official site)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.86221,
+     34.118517
+    ]
+   },
+   "properties": {
+    "name": "Good Hope Campground",
+    "category": "Camping & lodging",
+    "town": "Good Hope",
+    "source": "Fish Alabama (ADCNR)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.957619,
+     34.087211
+    ]
+   },
+   "properties": {
+    "name": "Drifters Bar & Grill on the Lake",
+    "category": "Restaurant",
+    "town": "Good Hope",
+    "source": "The Smith Lake Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.213767,
+     34.075242
+    ]
+   },
+   "properties": {
+    "name": "La Plaza Bonita Mexican Restaurant",
+    "category": "Restaurant",
+    "town": "Arley",
+    "source": "SmithLakeHouse.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.415873,
+     34.161177
+    ]
+   },
+   "properties": {
+    "name": "Buena Vista",
+    "category": "Restaurant",
+    "town": "Double Springs",
+    "source": "Buena Vista website"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.217687,
+     33.943453
+    ]
+   },
+   "properties": {
+    "name": "Jack's (Curry)",
+    "category": "Restaurant",
+    "town": "Curry",
+    "source": "Jack's official locator"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.213598,
+     33.961101
+    ]
+   },
+   "properties": {
+    "name": "Cujo's Pizza",
+    "category": "Restaurant",
+    "town": "Curry",
+    "source": "Cujo's Pizza ordering site"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.997736,
+     34.113174
+    ]
+   },
+   "properties": {
+    "name": "Seven Winds Kitchen",
+    "category": "Restaurant",
+    "town": "Logan",
+    "source": "Seven Winds Kitchen website"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.88572,
+     34.126758
+    ]
+   },
+   "properties": {
+    "name": "Ethos Brewery",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.864693,
+     34.130128
+    ]
+   },
+   "properties": {
+    "name": "McDonald's (County Road 222)",
+    "category": "Restaurant",
+    "town": "Cullman",
+    "source": "McDonald's official locator"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.215534,
+     34.072259
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Arley)",
+    "category": "Groceries & stores",
+    "town": "Arley",
+    "source": "Dollar General store directory"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.412935,
+     34.15876
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Double Springs)",
+    "category": "Groceries & stores",
+    "town": "Double Springs",
+    "source": "Dollar General store directory"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.164075,
+     34.198052
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Addison)",
+    "category": "Groceries & stores",
+    "town": "Addison",
+    "source": "Dollar General store directory"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.216812,
+     33.944274
+    ]
+   },
+   "properties": {
+    "name": "Dollar General (Curry)",
+    "category": "Groceries & stores",
+    "town": "Curry",
+    "source": "Dollar General store directory"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.218375,
+     33.94283
+    ]
+   },
+   "properties": {
+    "name": "Gateway Foodland (Curry)",
+    "category": "Groceries & stores",
+    "town": "Curry",
+    "source": "Superpages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.011374,
+     34.115547
+    ]
+   },
+   "properties": {
+    "name": "Guthery's Crossroads Grocery",
+    "category": "Groceries & stores",
+    "town": "Logan",
+    "source": "YellowPages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.17964,
+     34.207547
+    ]
+   },
+   "properties": {
+    "name": "Addison Quick Stop",
+    "category": "Groceries & stores",
+    "town": "Addison",
+    "source": "iExit (address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.035079,
+     33.951473
+    ]
+   },
+   "properties": {
+    "name": "Bug Tussle Marketplace",
+    "category": "Groceries & stores",
+    "town": "Bremen",
+    "source": "YellowPages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.183278,
+     34.203065
+    ]
+   },
+   "properties": {
+    "name": "Hyatt's Market",
+    "category": "Groceries & stores",
+    "town": "Addison",
+    "source": "YellowPages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.349255,
+     33.980159
+    ]
+   },
+   "properties": {
+    "name": "Odom's Grocery",
+    "category": "Groceries & stores",
+    "town": "Jasper",
+    "source": "Superpages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.346444,
+     33.972254
+    ]
+   },
+   "properties": {
+    "name": "Millican Grocery",
+    "category": "Groceries & stores",
+    "town": "Jasper",
+    "source": "YellowPages (address/phone)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.888149,
+     34.124583
+    ]
+   },
+   "properties": {
+    "name": "Van's Sporting Goods",
+    "category": "Bait, tackle & hardware",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.8735,
+     34.046629
+    ]
+   },
+   "properties": {
+    "name": "Dodge City Ace Hardware",
+    "category": "Bait, tackle & hardware",
+    "town": "Dodge City",
+    "source": "Ace Hardware official store page"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.209228,
+     34.082691
+    ]
+   },
+   "properties": {
+    "name": "ThompsonGas (Arley)",
+    "category": "Bait, tackle & hardware",
+    "town": "Arley",
+    "source": "ThompsonGas official site"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.3986,
+     34.2854
+    ]
+   },
+   "properties": {
+    "name": "Sipsey River Picnic Area and Trailhead",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "Alabama Birding Trails / USDA Forest Service"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.390431,
+     34.308442
+    ]
+   },
+   "properties": {
+    "name": "Borden Creek Trail (Trail 200/209)",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "Exploring Alabama / Alabama Recreation Trails"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.47223,
+     34.34086
+    ]
+   },
+   "properties": {
+    "name": "Thompson Creek Trailhead & Canoe Put-in",
+    "category": "Park & nature",
+    "town": "Moulton",
+    "source": "Alabama Recreation Trails"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.50262,
+     34.30857
+    ]
+   },
+   "properties": {
+    "name": "Kinlock Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking / North Alabama Tourism"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.49543,
+     34.3029
+    ]
+   },
+   "properties": {
+    "name": "Parker Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.434,
+     34.23518
+    ]
+   },
+   "properties": {
+    "name": "Caney Creek Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.4068,
+     34.28232
+    ]
+   },
+   "properties": {
+    "name": "Turkeyfoot Falls & Mize Mill Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking / North Alabama Tourism"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.2462,
+     34.25142
+    ]
+   },
+   "properties": {
+    "name": "Sougahoagdee Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "Alabama Waterfalls / North Alabama Hiking"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.25682,
+     34.27667
+    ]
+   },
+   "properties": {
+    "name": "Holmes Chapel Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.30818,
+     34.29017
+    ]
+   },
+   "properties": {
+    "name": "Shangri La Falls",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "North Alabama Hiking"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.270226,
+     34.294562
+    ]
+   },
+   "properties": {
+    "name": "Brushy Lake Recreation Area",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "USDA Forest Service"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.238682,
+     34.323626
+    ]
+   },
+   "properties": {
+    "name": "Owl Creek Horse Camp",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "USDA Forest Service"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.277078,
+     34.175456
+    ]
+   },
+   "properties": {
+    "name": "Natural Bridge Picnic Area (Bankhead NF)",
+    "category": "Park & nature",
+    "town": "Double Springs",
+    "source": "USDA Forest Service"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.99093,
+     34.20752
+    ]
+   },
+   "properties": {
+    "name": "Clarkson Covered Bridge Park",
+    "category": "Park & nature",
+    "town": "Cullman",
+    "source": "Wikipedia (coords/facts); Yelp (address)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.895729,
+     34.286888
+    ]
+   },
+   "properties": {
+    "name": "Hurricane Creek Park",
+    "category": "Park & nature",
+    "town": "Vinemont",
+    "source": "The Cullman Tribune"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.857221,
+     34.191073
+    ]
+   },
+   "properties": {
+    "name": "Sportsman Lake Park",
+    "category": "Park & nature",
+    "town": "Cullman",
+    "source": "Cullman County Parks & Recreation"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.984611,
+     33.964151
+    ]
+   },
+   "properties": {
+    "name": "Stony Lonesome OHV Park",
+    "category": "Park & nature",
+    "town": "Bremen",
+    "source": "The Cullman Tribune"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.764534,
+     34.056766
+    ]
+   },
+   "properties": {
+    "name": "Hanceville Veterans Memorial Park",
+    "category": "Park & nature",
+    "town": "Hanceville",
+    "source": "The Cullman Tribune"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.845852,
+     34.154271
+    ]
+   },
+   "properties": {
+    "name": "Heritage Park",
+    "category": "Park & nature",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.818,
+     34.177184
+    ]
+   },
+   "properties": {
+    "name": "Ave Maria Grotto",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "Ave Maria Grotto / Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.842858,
+     34.179284
+    ]
+   },
+   "properties": {
+    "name": "Cullman County Museum",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.284292,
+     33.844953
+    ]
+   },
+   "properties": {
+    "name": "Bankhead House & Heritage Center",
+    "category": "Things to do",
+    "town": "Jasper",
+    "source": "Bankhead House & Heritage Center"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.40223,
+     34.14625
+    ]
+   },
+   "properties": {
+    "name": "Dual Destiny War Memorial",
+    "category": "Things to do",
+    "town": "Double Springs",
+    "source": "Historical Marker Database"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.302958,
+     34.14931
+    ]
+   },
+   "properties": {
+    "name": "Looney's Amphitheater Complex and Cultural Center",
+    "category": "Things to do",
+    "town": "Double Springs",
+    "source": "North Alabama Tourism"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.831342,
+     34.11032
+    ]
+   },
+   "properties": {
+    "name": "Cross Creek Golf Course",
+    "category": "Things to do",
+    "town": "Hanceville",
+    "source": "GolfNow / Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.848154,
+     34.157845
+    ]
+   },
+   "properties": {
+    "name": "WildWater Cullman",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "WildWater Cullman"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.818865,
+     34.141212
+    ]
+   },
+   "properties": {
+    "name": "Goat Island Brewing",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "Goat Island Brewing"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.836817,
+     34.180126
+    ]
+   },
+   "properties": {
+    "name": "Sipsey Vineyard and Winery Tasting Room",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "North Alabama Tourism"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.142795,
+     34.066079
+    ]
+   },
+   "properties": {
+    "name": "The Patio at Smith Lake",
+    "category": "Things to do",
+    "town": "Crane Hill",
+    "source": "The Lakeside Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.425986,
+     34.183587
+    ]
+   },
+   "properties": {
+    "name": "The Barn at Shady Grove Farms",
+    "category": "Things to do",
+    "town": "Double Springs",
+    "source": "The Lakeside Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.188054,
+     33.982781
+    ]
+   },
+   "properties": {
+    "name": "Smith Lake Civic Association",
+    "category": "Things to do",
+    "town": "Jasper",
+    "source": "The Lakeside Life"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.789669,
+     34.140082
+    ]
+   },
+   "properties": {
+    "name": "Stone Bridge Farms",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.337575,
+     34.260834
+    ]
+   },
+   "properties": {
+    "name": "Hurricane Creek Shooting Range",
+    "category": "Things to do",
+    "town": "Double Springs",
+    "source": "USDA Forest Service"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.84813,
+     34.158765
+    ]
+   },
+   "properties": {
+    "name": "City Park Mini Golf",
+    "category": "Things to do",
+    "town": "Cullman",
+    "source": "Cullman Area Chamber of Commerce"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.803697,
+     34.198635
+    ]
+   },
+   "properties": {
+    "name": "Cullman Regional Medical Center",
+    "category": "Essentials",
+    "town": "Cullman",
+    "source": "Cullman Regional"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.237425,
+     33.841394
+    ]
+   },
+   "properties": {
+    "name": "Walker Baptist Medical Center",
+    "category": "Essentials",
+    "town": "Jasper",
+    "source": "Baptist Health"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.591326,
+     34.242023
+    ]
+   },
+   "properties": {
+    "name": "Lakeland Community Hospital",
+    "category": "Essentials",
+    "town": "Haleyville",
+    "source": "Lakeland Community Hospital"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.837451,
+     34.16431
+    ]
+   },
+   "properties": {
+    "name": "Huntsville Hospital Urgent Care - Cullman",
+    "category": "Essentials",
+    "town": "Cullman",
+    "source": "Urgent Team"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.842439,
+     34.153204
+    ]
+   },
+   "properties": {
+    "name": "AFC Urgent Care Cullman",
+    "category": "Essentials",
+    "town": "Cullman",
+    "source": "AFC Urgent Care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.246779,
+     33.843579
+    ]
+   },
+   "properties": {
+    "name": "ExperCARE Jasper",
+    "category": "Essentials",
+    "town": "Jasper",
+    "source": "ExperCARE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.215614,
+     34.072189
+    ]
+   },
+   "properties": {
+    "name": "Arley Country Pharmacy",
+    "category": "Essentials",
+    "town": "Arley",
+    "source": "Yellow Pages (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.175841,
+     34.200593
+    ]
+   },
+   "properties": {
+    "name": "Addison Discount Pharmacy",
+    "category": "Essentials",
+    "town": "Addison",
+    "source": "RxLess (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.403533,
+     34.150025
+    ]
+   },
+   "properties": {
+    "name": "Harrison Drug",
+    "category": "Essentials",
+    "town": "Double Springs",
+    "source": "RxLess (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.213899,
+     34.08066
+    ]
+   },
+   "properties": {
+    "name": "Arley Post Office",
+    "category": "Essentials",
+    "town": "Arley",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.403265,
+     34.142848
+    ]
+   },
+   "properties": {
+    "name": "Double Springs Post Office",
+    "category": "Essentials",
+    "town": "Double Springs",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.179645,
+     34.201642
+    ]
+   },
+   "properties": {
+    "name": "Addison Post Office",
+    "category": "Essentials",
+    "town": "Addison",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.062555,
+     34.093935
+    ]
+   },
+   "properties": {
+    "name": "Crane Hill Post Office",
+    "category": "Essentials",
+    "town": "Crane Hill",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.253907,
+     34.137197
+    ]
+   },
+   "properties": {
+    "name": "Houston Post Office",
+    "category": "Essentials",
+    "town": "Houston",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.033059,
+     33.98039
+    ]
+   },
+   "properties": {
+    "name": "Bremen Post Office",
+    "category": "Essentials",
+    "town": "Bremen",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.006685,
+     34.138597
+    ]
+   },
+   "properties": {
+    "name": "Logan Post Office",
+    "category": "Essentials",
+    "town": "Logan",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.775504,
+     34.069353
+    ]
+   },
+   "properties": {
+    "name": "Hanceville Post Office",
+    "category": "Essentials",
+    "town": "Hanceville",
+    "source": "Mailbox Locate (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.213523,
+     34.076201
+    ]
+   },
+   "properties": {
+    "name": "BankFirst - Arley",
+    "category": "Essentials",
+    "town": "Arley",
+    "source": "BankFirst"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.174701,
+     34.200279
+    ]
+   },
+   "properties": {
+    "name": "BankFirst - Addison",
+    "category": "Essentials",
+    "town": "Addison",
+    "source": "BankFirst"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.402312,
+     34.146434
+    ]
+   },
+   "properties": {
+    "name": "BankFirst - Double Springs (Blake Drive)",
+    "category": "Essentials",
+    "town": "Double Springs",
+    "source": "BankFirst"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.412967,
+     34.159348
+    ]
+   },
+   "properties": {
+    "name": "BankFirst - Double Springs (Highway 278)",
+    "category": "Essentials",
+    "town": "Double Springs",
+    "source": "BankFirst"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.218035,
+     33.943308
+    ]
+   },
+   "properties": {
+    "name": "BankFirst - Curry",
+    "category": "Essentials",
+    "town": "Curry",
+    "source": "BankFirst"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.17951,
+     34.201605
+    ]
+   },
+   "properties": {
+    "name": "Premier Bank of the South - Addison",
+    "category": "Essentials",
+    "town": "Addison",
+    "source": "Bank Branch Locator (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.171637,
+     34.199433
+    ]
+   },
+   "properties": {
+    "name": "Addison Veterinary Hospital",
+    "category": "Essentials",
+    "town": "Addison",
+    "source": "Local Vet Clinics (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -86.814819,
+     34.125108
+    ]
+   },
+   "properties": {
+    "name": "Animal Medical Hospital",
+    "category": "Essentials",
+    "town": "Hanceville",
+    "source": "GeniusVets (directory)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -87.402216,
+     34.170229
+    ]
+   },
+   "properties": {
+    "name": "Bankhead Ranger District Office",
+    "category": "Essentials",
+    "town": "Double Springs",
+    "source": "USDA Forest Service"
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+# Smith Lake Map — Justin Dyar, Lake Homes Realty, LLC
+
+> Free interactive map of Smith Lake (Lewis Smith Lake), Alabama: boat ramps, marinas, fishing spots, restaurants, groceries, gas stations, parks, and Justin Dyar's homes and land for sale on the lake.
+
+The map lives at https://justindyar.com/smith-lake-map/. It covers about 21,000 acres of lake in Cullman, Walker and Winston counties, with 284 places pinned. Place data comes from OpenStreetMap, the Alabama Department of Conservation and Natural Resources, Alabama Power and Cullman County, checked on October 5, 2026.
+
+Cite as: Smith Lake Map by Justin Dyar, Lake Homes Realty, LLC, Crane Hill, Alabama — https://justindyar.com/smith-lake-map/
+
+## Contact
+- Name: Justin Dyar, Associate Broker, REALTOR®
+- Brokerage: Lake Homes Realty, LLC
+- Phone: (205) 468-6375
+- Email: justin@justindyar.com
+- Office: 63 County Rd 2013, Crane Hill, AL 35053
+- Service area: Smith Lake — Arley, Bremen, Crane Hill, Cullman, Double Springs, Houston, Jasper, Logan
+
+## What is on the map
+- Justin's homes & land for sale: 24
+- Boat ramps & launches: 6
+- Marinas: 10
+- Boat rentals, dealers & service: 11
+- Fishing piers, access & guides: 5
+- Restaurants & food: 124
+- Groceries & stores: 17
+- Bait, tackle & hardware: 6
+- Gas stations: 3
+- Parks, waterfalls & trails: 23
+- Things to do: 15
+- Camping & lodging: 14
+- Medical, pharmacy, banks & post offices: 26
+
+## Questions people ask
+**How big is Smith Lake?**
+Smith Lake (Lewis Smith Lake) covers about 21,000 acres in Cullman, Walker and Winston counties in north Alabama, with more than 500 miles of shoreline. Sources differ on the exact numbers: the state wildlife agency says 21,200 acres, and Wikipedia lists 642 miles of shoreline.
+
+**Where can I launch a boat on Smith Lake?**
+Public launches on this map include Highway 63 Bridge Ramp, Smith Dam Ramp. Fee launches include Clear Creek Recreation Area Boat Ramp, Corinth Recreation Area, Houston Recreation Area, Smith Lake Park Boat Launch. The ramps we could confirm are on the map above. Tap one for directions, and call ahead about fees.
+
+**Where can I fish from the bank on Smith Lake?**
+Two piers to start with: the fishing pier at Smith Lake Park in Cullman (park entry fees apply) and the accessible Alabama Power pier at the Smith Dam tailrace. On the main lake, most fishing is casting to the big rocks and fallen trees along the shoreline, and Fish Alabama calls the lake a hot spot for fly fishing at night. Below the dam, the Sipsey Fork is stocked with rainbow trout every month.
+
+**What fish are in Smith Lake?**
+Alabama (spotted) bass, largemouth bass, striped bass, crappie, bream and catfish. Smith Lake once held the world record for spotted bass, an 8-pound, 15-ounce fish that is still the Alabama state record. Striped bass here reach the 40-pound range.
+
+**Can you trout fish near Smith Lake?**
+Yes. The Sipsey Fork below Lewis Smith Dam is stocked with about 3,000 rainbow trout every month, on the third Thursday. The limit is five fish, with no size limit and no closed season. The water can rise 12 to 15 feet quickly when the dam generates power. Sirens warn you, and the generation schedule line is 1-800-LAKES-11.
+
+**How deep is Smith Lake?**
+Wikipedia lists its deepest point at 264 feet. Other sources say close to 300 feet, so the exact figure depends on who measured it. The water is deep, clear and blue.
+
+**How much does the water level drop in winter?**
+Justin Dyar's Smith Lake guide gives a normal summer pool of 510 feet above sea level and a winter pool of 496 feet, so plan on a drop of about 14 feet each winter. Lot and dock depth matter when you buy on the lake.
+
+**What towns are on Smith Lake?**
+Lake towns include Arley, Bremen, Crane Hill, Double Springs, Houston and Logan, with Cullman and Jasper close by.
+
+**Where can I rent a boat on Smith Lake?**
+Boat and jet ski rental businesses on this map include Cappy's Boats, Evans Marine, Skier's Marine Smith Lake, Smith Lake Pontoon and Boat Rentals. Tap "Rent a boat" above the list to see them all, with directions and phone numbers.
+
+**Are there waterfalls and hiking trails near Smith Lake?**
+Yes. Bankhead National Forest sits on the north and west side of the lake. This map shows 7 waterfalls, including Caney Creek Falls, Holmes Chapel Falls, Kinlock Falls, plus trailheads and Forest Service recreation areas. Some waterfall trails are unmarked, so check the Forest Service page before you go.
+
+**How do I find homes for sale on Smith Lake?**
+Tap "Homes for sale" on the map to see Justin Dyar's current homes, lots and land on and near the lake, or browse every Smith Lake listing at justindyar.com. Justin is an Associate Broker with Lake Homes Realty, LLC in Crane Hill. Call (205) 468-6375.
+
+## Pages
+- [Smith Lake Map](https://justindyar.com/smith-lake-map/): the interactive map and guide
+- [Justin's listings](https://justindyar.com/justins-listings/): current homes and land
+- [Smith Lake guide](https://justindyar.com/smith-lake/): living on Smith Lake
+- [Contact](https://justindyar.com/contact-us/)
+
+## Full detail
+- [llms-full.txt](llms-full.txt)
+
+## Site credits
+AI search optimization (GEO) for this site by AI Syndicate — https://aisyndicate.com
+This line is about who optimized the site. It is not a fact about the business above.

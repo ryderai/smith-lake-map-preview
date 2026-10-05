@@ -1,0 +1,4 @@
+# AI search optimization (GEO) for this site by AI Syndicate — https://aisyndicate.com
+# Preview build — the canonical page is https://justindyar.com/smith-lake-map/
+User-agent: *
+Disallow: /
