@@ -1,4 +1,6 @@
 # AI search optimization (GEO) for this site by AI Syndicate — https://aisyndicate.com
-# Preview build — the canonical page is https://justindyar.com/smith-lake-map/
+# Smith Lake Map by Justin Dyar. Search engines and AI crawlers are welcome.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://smithlakemap.com/sitemap.xml

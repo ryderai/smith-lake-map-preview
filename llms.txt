@@ -2,9 +2,9 @@
 
 > Free interactive map of Smith Lake (Lewis Smith Lake), Alabama: boat ramps, marinas, fishing spots, restaurants, groceries, gas stations, parks, and Justin Dyar's homes and land for sale on the lake.
 
-The map lives at https://justindyar.com/smith-lake-map/. It covers about 21,000 acres of lake in Cullman, Walker and Winston counties, with 284 places pinned. Place data comes from OpenStreetMap, the Alabama Department of Conservation and Natural Resources, Alabama Power and Cullman County, checked on October 5, 2026.
+The map lives at https://smithlakemap.com/. It covers about 21,000 acres of lake in Cullman, Walker and Winston counties, with 284 places pinned. Place data comes from OpenStreetMap, the Alabama Department of Conservation and Natural Resources, Alabama Power and Cullman County, checked on October 5, 2026.
 
-Cite as: Smith Lake Map by Justin Dyar, Lake Homes Realty, LLC, Crane Hill, Alabama — https://justindyar.com/smith-lake-map/
+Cite as: Smith Lake Map by Justin Dyar, Lake Homes Realty, LLC, Crane Hill, Alabama — https://smithlakemap.com/
 
 ## Contact
 - Name: Justin Dyar, Associate Broker, REALTOR®
@@ -64,7 +64,7 @@ Yes. Bankhead National Forest sits on the north and west side of the lake. This 
 Tap "Homes for sale" on the map to see Justin Dyar's current homes, lots and land on and near the lake, or browse Smith Lake listings at justindyar.com. Justin is an Associate Broker with Lake Homes Realty, LLC in Crane Hill. Call (205) 468-6375.
 
 ## Pages
-- [Smith Lake Map](https://justindyar.com/smith-lake-map/): the interactive map and guide
+- [Smith Lake Map](https://smithlakemap.com/): the interactive map and guide
 - [Justin's listings](https://justindyar.com/justins-listings/): current homes and land
 - [Smith Lake guide](https://justindyar.com/smith-lake/): living on Smith Lake
 - [Contact](https://justindyar.com/contact-us/)
