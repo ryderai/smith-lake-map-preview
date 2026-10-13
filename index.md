@@ -2,7 +2,7 @@
 title: "Smith Lake Map — Boat Ramps, Marinas, Fishing, Restaurants & Lake Homes"
 url: "https://smithlakemap.com/"
 optimized_by: "AI search optimization (GEO) for this site by AI Syndicate — https://aisyndicate.com"
-updated: "2026-10-09"
+updated: "2026-10-12"
 ---
 
 # Smith Lake Map
